@@ -1,0 +1,18 @@
+* Sample of passthrough with Post-Processing using Meta XR Core SDK
+This repository contains sample source code to describe how to enable
+Post-Processing with passthrough enabled.
+
+ I'll post a blog entry that describes this later, but basically, I
+ just added dedicated camera to render post-process effect, stack it
+ on top of XRCameraRig's camera result.
+ 
+** Some useful references
++ [[https://communityforums.atmeta.com/t5/Unity-Development/Passthrough-and-post-processing/td-p/895883][Passthrough and post processing - Meta Community Forums - 895883]]
++ [[https://www.youtube.com/watch?v=G6p8E2GMi-E][Unity 6 BETA - Passthrough & Post-Processing with Meta Quest 3 - YouTube]]
++ [[https://discussions.unity.com/t/post-processing-with-multiple-cameras-is-currently-very-problematic/822011/253][Post Processing with multiple cameras is currently very problematic - Unity discussions]]
+ 
+** About license
+This repository doesn't contains any code that I wrote. I attached
+CC0-1.0 license file just because it's not good practice to leave any
+repository without any license.
+
